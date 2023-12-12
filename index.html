@@ -18,8 +18,8 @@
 
       function initMap() {
         map = new google.maps.Map(document.getElementById("map"), {
-          center: { lat: 20, lng: -160 },
-          zoom: 2,
+          center: { lat: 51, lng: 11 },
+          zoom: 5,
         });
 
         infoWindow = new google.maps.InfoWindow({
@@ -33,7 +33,7 @@
 
         script.setAttribute(
           "src",
-          "https://storage.googleapis.com/mapsdevsite/json/quakes.geo.json"
+          "./quakes.geo.json"
         );
         document.getElementsByTagName("head")[0].appendChild(script);
       }
@@ -59,8 +59,8 @@
             const contentString = 
               '<div class="info-window-content">'+
               '<h2>'+f.place +'</h2>'+
-              '<h3>Magnitude '+f.mag+'</h3><p>'+d.toString()+'</p>'+
-              '<a href="'+f.url+'" target="new">View on USGS</a>'+
+              '<h3>'+f.marke+' '+f.modell+'</h3>'+
+              '<a href="'+f.url+'" target="new">Mehr lesen</a>'+
               '</div>';
             
             infoWindow.setContent(contentString);

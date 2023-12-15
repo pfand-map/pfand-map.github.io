@@ -1,6 +1,7 @@
-eqfeed_callback({"type":"FeatureCollection","metadata":{"generated":1395197681000,"url":"http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/1.0_week.geojsonp","title":"USGS Magnitude 1.0+ Earthquakes, Past Week","status":200,"api":"1.0.13","count":1021},"features":[
+eqfeed_callback({"type":"FeatureCollection","features":[
 
-{"type":"Feature","properties":{"place":"Hofer","time":1394731919000,"marke":"Tomra","modell":"T9","updated":1395099105116,"tz":60,"url":"http://hofer.at/","types":",cap,dyfi,geoserve,nearby-cities,origin,phase-data,","nst":null,"dmin":0.79,"rms":0.91,"gap":39,"magType":"mb","type":"earthquake","title":"M 4.4 - 9km E of Ribnica, Slovenia"},"geometry":{"type":"Point","coordinates":[16.75498,48.54482,0]},"id":"usc000nacg"},
-{"type":"Feature","properties":{"place":"Spar","time":1394731919000,"marke":"Tomra","modell":"T9","updated":1395099105116,"tz":60,"url":"http://spar.at/","types":",cap,dyfi,geoserve,nearby-cities,origin,phase-data,","nst":null,"dmin":0.79,"rms":0.91,"gap":39,"magType":"mb","type":"earthquake","title":"M 4.4 - 9km E of Ribnica, Slovenia"},"geometry":{"type":"Point","coordinates":[16.754800405476644,48.54818507942097,0]},"id":"usc000nacg"},
+{"type":"Feature","properties":{"place":"Hofer","time":1394731919000,"marke":"Tomra","modell":"T9","tz":60,"url":"http://hofer.at/"},"geometry":{"type":"Point","coordinates":[16.75498,48.54482,0]},"id":"usc000nacg"},
+{"type":"Feature","properties":{"place":"Spar","time":1394731919000,"marke":"Tomra","modell":"T9","tz":60,"url":"http://spar.at/"},"geometry":{"type":"Point","coordinates":[16.754800405476644,48.54818507942097,0]},"id":"usc000nacg"},
+{"type":"Feature","properties":{"place":"Penny","time":1394731919000,"marke":"Sielaff","modell":"SiVario 2020","tz":60,"url":"http://penny.at/"},"geometry":{"type":"Point","coordinates":[16.767693031572282,48.543805971886556,0]},"id":"usc000nacg"},
 
 ],"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]});

@@ -1,8 +1,8 @@
 eqfeed_callback({"type":"FeatureCollection","features":[
 
-{"type":"Feature","properties":{"place":"Hofer","time":1394731919000,"marke":"Tomra","modell":"T9","tz":60,"url":"http://hofer.at/"},"geometry":{"type":"Point","coordinates":[16.75498,48.54482,0]},"id":"usc000nacg"},
-{"type":"Feature","properties":{"place":"Spar","time":1394731919000,"marke":"Tomra","modell":"T9","tz":60,"url":"http://spar.at/"},"geometry":{"type":"Point","coordinates":[16.754800405476644,48.54818507942097,0]},"id":"usc000nacg"},
-{"type":"Feature","properties":{"place":"Penny","time":1394731919000,"marke":"Sielaff","modell":"SiVario 2020","tz":60,"url":"http://penny.at/"},"geometry":{"type":"Point","coordinates":[16.767693031572282,48.543805971886556,0]},"id":"usc000nacg"},
-{"type":"Feature","properties":{"place":"Billa","time":1394731919000,"marke":"Tomra","modell":"T-705","tz":60,"url":"http://billa.at/"},"geometry":{"type":"Point","coordinates":[16.412048187301288,48.19257038458235,0]},"id":"usc000nacg"},
+{"type":"Feature","properties":{"place":"Hofer","time":1394731919000,"marke":"Tomra","modell":"T9","tz":60,"url":"http://hofer.at/"},"geometry":{"type":"Point","coordinates":[16.75498,48.54482,0]},"id":"100001"},
+{"type":"Feature","properties":{"place":"Spar","time":1394731919000,"marke":"Tomra","modell":"T9","tz":60,"url":"http://spar.at/"},"geometry":{"type":"Point","coordinates":[16.754800405476644,48.54818507942097,0]},"id":"100004"},
+{"type":"Feature","properties":{"place":"Penny","time":1394731919000,"marke":"Sielaff","modell":"SiVario 2020","tz":60,"url":"http://penny.at/"},"geometry":{"type":"Point","coordinates":[16.767693031572282,48.543805971886556,0]},"id":"100005"},
+{"type":"Feature","properties":{"place":"Billa","time":1394731919000,"marke":"Tomra","modell":"T-705","tz":60,"url":"http://billa.at/"},"geometry":{"type":"Point","coordinates":[16.412048187301288,48.19257038458235,0]}},
 
 ],"bbox":[-179.463,-60.7674,-2.9,178.4321,67.0311,609.13]});
